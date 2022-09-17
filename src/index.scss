@@ -1,0 +1,154 @@
+:root {
+    --green1: #36933A;
+    --green2: #C8E690;
+    --white: #fff;
+    --brown: #743410;
+    --brown1:#8D440B;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    .App{
+      background-color: #36933A;
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+  }
+
+.height800 {
+    height: 800px;
+}
+.height600 {
+    height: 600px;
+}
+.height500 {
+    height: 500px;
+}
+.height400 {
+    height: 400px;
+}
+.height350 {
+    height: 350px;
+}
+.height320 {
+    height: 320px;
+}
+.height300 {
+    height: 300px;
+}
+.height250 {
+    height: 250px;
+}
+.height200 {
+    height: 200px;
+}
+.height175 {
+    height: 175px;
+}
+.height150 {
+    height: 150px;
+}
+.height120 {
+    height: 120px;
+}
+.height100 {
+    height: 100px;
+}
+.height75 {
+    height: 75px;
+}
+.height50 {
+    height: 50px;
+}
+
+@media (max-width: 767.98px) {
+  .height800 {
+    height: 0px;
+  }
+  .height600 {
+    height: 0px;
+  }
+  .height500 {
+    height: 0px;
+  }
+  .height400 {
+    height: 0px;
+  }
+  .height350 {
+    height: 0px;
+  }
+  .height320 {
+    height: 0px;
+  }
+  .height300 {
+    height: 0px;
+  }
+  .height250 {
+    height: 0px;
+  }
+  .height200 {
+    height: 0px;
+  }
+  .height175 {
+    height: 0px;
+  }
+  .height150 {
+    height: 0px;
+  }
+  .height120 {
+    height: 0px;
+  }
+  .height100 {
+    height: 0px;
+  }
+  .height75 {
+    height: 0px;
+  }
+  .height50 {
+    height: 0px;
+  }
+
+  .height20-sm {
+    height: 20px;
+  }
+  .height30-sm {
+    height: 30px;
+  }
+  .height50-sm {
+    height: 50px;
+  }
+  .height75-sm {
+    height: 75px;
+  }
+  .height150-sm {
+    height: 150px;
+  }
+}

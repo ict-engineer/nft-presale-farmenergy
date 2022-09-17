@@ -1,0 +1,53 @@
+@import url('//fonts.googleapis.com/css?family=Patrick+Hand&text=Presale');
+/* @import url("//fonts.googleapis.com/css?family=Roboto:700&text=NFT"); */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap&text=NFT');
+@import url('//fonts.googleapis.com/css?family=Dosis:400,600');
+
+.comingsoon {
+    margin-top: -90px;
+    background-image: url('../assets/images/bg-hero.png');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: repeat-y;
+    min-height: calc(100vh + 90px);
+    .bg-frame {
+        background-color: rgba(255, 255, 255, .7);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .text-cooming {
+            font-size: 80px;
+            color: var(--brown1);
+            font-weight: 700;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .comingsoon {
+        background-size: cover;
+        background-position: left center;
+        margin-top: 0;
+        height: 100vh;
+        .bg-frame {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .text-cooming {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.outline {
+    color: black;
+   -webkit-text-fill-color: rgb(40, 175, 35); /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(255, 255, 0);
+    font-size: 80px;
+    font-family: 'Donis', serif;
+}
+
+.small-title {
+    font: 120px/0.65 'Patrick Hand', 'Patrick Hand', Futura, 'Roboto',
+    'Fuzzy Bubbles', Helvetica, sans-serif;
+}

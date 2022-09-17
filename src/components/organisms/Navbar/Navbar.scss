@@ -1,0 +1,118 @@
+.px50 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+header {
+    position: relative;
+    .navbar {
+        padding-right: 4%;
+        padding-left: 4%;
+        background-image: url('../../../assets/images/header-bg.png');
+        background-size: 97% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        .container-fluid {
+            .navbar-brand {
+                color: var(--white);;
+                font-size: 18px;
+                font-weight: 700;   
+                transition: all .2s ease-in-out;   
+                margin-bottom: 10px;      
+                img {
+                    width: 40px;
+                    margin-right: 10px;
+                }
+                &:hover {
+                    transform: scale(1.025);
+                }
+            }
+            .navbar-collapse {
+                .navbar-nav {    
+                    .nav-item {
+                        margin-bottom: 2%;  
+                        display: flex;
+                        align-items: center;
+                        .nav-link {
+                            color: var(--white);;
+                            font-size: 16px;
+                            font-weight: 700;
+                            padding: 4px 20px;
+                            margin-right: 5px;
+                            margin-left: 5px;
+                            border-radius: 10px;
+                            transition: all .5s ease-in-out;
+                            &:hover {
+                                background-color: rgba(255, 255, 255, .3);
+                                border-radius: 10px;
+                            }
+                            &.active {
+                                color: var(--brown);;
+                                background-color: var(--white);;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                }
+                .btn-connect {
+                    color: var(--brown);;
+                    font-size: 16px;
+                    font-weight: 800;
+                    background-image: url('../../../assets/images/bg-button-connect.png');
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    width: 130px;
+                    margin-bottom: 10px;  
+                    &:hover {
+                        transition: all .2s ease-in-out;
+                        transform: scale(1.025);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .px50 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    header {
+        position: relative;
+        .navbar {
+            padding: 5px 0;
+            background-image: none;
+            background-color: var(--brown);
+            border-bottom: 5px solid var(--brown1);
+            .container-fluid {
+                margin-bottom: 0px;
+                .navbar-brand {
+                    margin-bottom: 0px;   
+                }
+                .navbar-toggler {
+                    border: none;
+                    box-shadow: none;
+                    span.navbar-toggler-icon {
+                        filter: invert(1);
+                    }
+                }
+                .navbar-collapse {
+                    margin-top: 10px;
+                    .navbar-nav { 
+                        .nav-item {
+                            .nav-link {
+                                padding-left: 0;
+                                &:hover {
+                                    padding-left: 20px;
+                                }
+                                &.active {
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

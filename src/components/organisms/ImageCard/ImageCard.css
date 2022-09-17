@@ -1,0 +1,21 @@
+/* .headshot {
+  padding: 0px !important;
+  flex-shrink: 0;
+  padding: 0px;
+  margin: 0px;
+  border: calc(1px + 0.2vw) solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px 2px rgb(238, 255, 0);
+}
+
+.headshot img {
+  height: 200px;
+}
+
+.headshot-1 {
+  border-radius: 5%;
+  background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+} */

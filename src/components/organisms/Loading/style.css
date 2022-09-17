@@ -1,0 +1,9 @@
+@import url('//fonts.googleapis.com/css?family=Patrick+Hand&text=Presale');
+/* @import url("//fonts.googleapis.com/css?family=Roboto:700&text=NFT"); */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap&text=NFT');
+
+.loading {
+    font: 120px/0.65 'Patrick Hand', 'Patrick Hand', Futura, 'Roboto',
+    'Fuzzy Bubbles', Helvetica, sans-serif;
+    color: rgb(12, 63, 25);
+}

@@ -1,0 +1,138 @@
+.end-section {
+    background-image: url('../../../assets/images/bg-bottom.png');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    .partners {
+        .heading {
+            font-family: 'Righteous', cursive;
+            color: white;
+            font-size: 48px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    .teams {
+        .heading {
+            font-family: 'Righteous', cursive;
+            color: white;
+            font-size: 48px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .name {
+            font-family: 'Righteous', cursive;
+            color: white;
+            font-size: 32px;
+            font-weight: 400;
+        }
+        .title {
+            font-family: 'Righteous', cursive;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    .footer {
+        position: relative;
+        .content-footer {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .footer-left {
+                display: flex;
+                .logo {
+                   display: inline-block;
+                   .logo-img {
+                       width: 100px;
+                   }
+                }
+                .address {
+                    display: inline-block;
+                    .title {
+                        color: white;
+                        font-weight: 500px;
+                        font-size: 20px;
+                    }
+                    .email {
+                        color: white;
+                        font-weight: 500px;
+                    }
+                    small {
+                        color: white;
+                        font-size: 11px;
+                        display: block;
+                    }
+                }
+            }
+            .footer-right {
+                .title {
+                    color: white;
+                    font-weight: 500px;
+                    font-size: 28px;
+                }
+                a {
+                    text-decoration: none;
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .end-section {
+        background-color: #0F1E25;
+        .partners {
+            .heading {
+                font-size: 24px;
+            }
+        }
+        .teams {
+            .heading {
+                font-size: 24px;
+            }
+            .name {
+                font-size: 16px;
+            }
+            .title {
+                font-size: 10px;
+            }
+        }
+        .footer {
+            .content-footer {
+                position: static;
+                .footer-left {
+                    .logo {
+                        .logo-img {
+                            width: 40px;
+                        }
+                    }
+                    .address {
+                        .title {
+                            font-size: 12px;
+                        }
+                        .email {
+                            font-size: 10px;
+                        }
+                        small {
+                            font-size: 8px;
+                        }
+                    }
+                }
+                .footer-right {
+                    .title {
+                        font-size: 18px;
+                    }
+                    a {
+                        img {
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
